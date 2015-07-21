@@ -19,10 +19,9 @@ class FollowZettelLinkCommand(sublime_plugin.TextCommand):
         self.view.sel().clear()
         self.view.sel().add(oldLocation)
 
-        the_file_path = directory+selected_text+extension
-        the_file = selected_text+extension
+        the_file = directory+"/"+selected_text+extension
 
-        if os.path.exists(the_file_path):
+        if os.path.exists(the_file):
             #open the already-created page.
             new_view = window.open_file(the_file)
 
