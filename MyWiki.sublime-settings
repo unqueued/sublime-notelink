@@ -1,7 +1,0 @@
-{
-    // The directory in which your notes are stored.
-    "wiki_directory": "~/Zettel",
-
-    // The preferred markdown extension
-    "wiki_extension": ".txt"
-}

@@ -1,0 +1,7 @@
+{
+    // Directory in which your notes are stored
+    "zettel_directory": "~/Zettel",
+
+    // Preferred file extension for notes
+    "zettel_extension": ".txt"
+}
