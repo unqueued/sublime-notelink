@@ -25,7 +25,7 @@ class FollowZettelLinkCommand(sublime_plugin.TextCommand):
             #open the already-created page.
             new_view = window.open_file(the_file)
 
-        else:
+        elif selected_text:
             #create the file then open it.
             open(the_file, "a")
             new_view = window.open_file(the_file)
