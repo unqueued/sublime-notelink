@@ -1,7 +1,4 @@
 [
-
-//Basic Key-Bindings
-    { "keys": ["ctrl+enter"], "command": "follow_wiki_link"},
-    { "keys": ["[", "["], "command": "get_wiki_link"}
-
+    { "keys": ["ctrl+enter"], "command": "follow_zettel_link" },
+    { "keys": ["[", "["], "command": "get_zettel_link" }
 ]
