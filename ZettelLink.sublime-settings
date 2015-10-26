@@ -3,5 +3,5 @@
     "zettel_directory": "~/Zettel",
 
     // Preferred file extension for notes
-    "zettel_extension": ".txt"
+    "zettel_extension": ".md"
 }
