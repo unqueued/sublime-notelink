@@ -1,4 +1,4 @@
 [
-    { "keys": ["ctrl+enter"], "command": "follow_zettel_link" },
-    { "keys": ["[", "["], "command": "get_zettel_link" }
+    { "keys": ["ctrl+enter"], "command": "follow_note_link" },
+    { "keys": ["[", "["], "command": "get_note_link" }
 ]
