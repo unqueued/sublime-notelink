@@ -1,7 +1,7 @@
 {
     // Directory in which your notes are stored
-    "zettel_directory": "~/Zettel",
+    "note_directory": "~/Notes",
 
     // Preferred file extension for notes
-    "zettel_extension": ".md"
+    "note_extension": ".md"
 }
