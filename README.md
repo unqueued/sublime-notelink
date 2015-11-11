@@ -1,6 +1,6 @@
 # sublime-notelink
 
-A quick plugin for Sublime Text 3 to add links between notes.
+Sublime Text 3 plugin to add links between notes
 
 Currently supports `[[wiki-style links]]`
 
