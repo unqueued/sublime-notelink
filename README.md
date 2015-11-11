@@ -1,6 +1,8 @@
-# sublime-wikilink
+# sublime-notelink
 
-A quick plugin for Sublime Text 3 to add `[[wiki-style links]]` between Zettel notes.
+A quick plugin for Sublime Text 3 to add links between notes.
+
+Currently supports `[[wiki-style links]]`
 
 Forked from: https://github.com/dansheffler/MyWiki
 
