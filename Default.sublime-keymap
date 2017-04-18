@@ -1,4 +1,6 @@
 [
     { "keys": ["ctrl+enter"], "command": "follow_note_link" },
-    { "keys": ["[", "["], "command": "get_note_link" }
+    //{ "keys": ["[", "["], "command": "get_note_link" } // for US keyboard layout
+    //{ "keys": ["[", "alt+5"], "command": "get_note_link" } // suitable for Apple German (QWERTZ)
+    { "keys": ["super+alt+shift+o"], "command": "get_note_link" }
 ]
