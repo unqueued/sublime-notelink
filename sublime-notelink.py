@@ -6,11 +6,17 @@ import subprocess
 
 class FollowNoteLinkCommand(sublime_plugin.TextCommand):
     def run(self, edit):
+
         settings = sublime.load_settings('sublime-notelink.sublime-settings')
         directory = settings.get('note_directory')
         directory = os.path.expanduser(directory)
         extension = settings.get('note_extension')
         window = self.view.window()
+
+
+        this_file = self.view.window().active_view().file_name()
+        if this_file != None:
+            directory = os.path.dirname(this_file)
 
         oldLocation = self.view.sel()[0]
         self.view.run_command("bracketeer_select")
@@ -46,6 +52,10 @@ class GetNoteLinkCommand(sublime_plugin.TextCommand):
         directory = settings.get('note_directory')
         directory = os.path.expanduser(directory)
         extension = settings.get('note_extension')
+
+        this_file = self.view.window().active_view().file_name()
+        if this_file != None:
+            directory = os.path.dirname(this_file)
 
         self.outputText = '[['
         self.files = os.listdir(directory)
