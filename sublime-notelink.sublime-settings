@@ -1,5 +1,5 @@
 {
-    // Directory in which your notes are stored
+    // Default directory in which your notes are stored
     "note_directory": "~/Notes",
 
     // Preferred file extension for notes
